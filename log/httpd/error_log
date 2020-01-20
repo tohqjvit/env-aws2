@@ -1,0 +1,8 @@
+[Wed Jan 15 06:28:08.944410 2020] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.25.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 15 06:28:09.209384 2020] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Wed Jan 15 06:28:09.209451 2020] [http2:warn] [pid 1] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Wed Jan 15 06:28:09.209457 2020] [http2:warn] [pid 1] AH02951: mod_ssl does not seem to be enabled
+[Wed Jan 15 06:28:11.843690 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.41 () PHP/7.3.13 configured -- resuming normal operations
+[Wed Jan 15 06:28:11.843737 2020] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
